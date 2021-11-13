@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="7648832.ico" />
+    <None Include="Resources\Icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

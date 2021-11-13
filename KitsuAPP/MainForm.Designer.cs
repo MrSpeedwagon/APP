@@ -39,8 +39,6 @@ namespace KitsuAPP
             this.descriptionLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
             this.miscInfoLabel = new System.Windows.Forms.Label();
-            this.GithubBTN = new System.Windows.Forms.Button();
-            this.AboutBTN = new System.Windows.Forms.Button();
             this.SiteLinkLabel = new System.Windows.Forms.Label();
             this.bottompanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kitsulogo)).BeginInit();
@@ -50,8 +48,6 @@ namespace KitsuAPP
             // bottompanel
             // 
             this.bottompanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(38)))), ((int)(((byte)(48)))));
-            this.bottompanel.Controls.Add(this.AboutBTN);
-            this.bottompanel.Controls.Add(this.GithubBTN);
             this.bottompanel.Controls.Add(this.OKbtn);
             this.bottompanel.Controls.Add(this.inputBox);
             this.bottompanel.Controls.Add(this.kitsulogo);
@@ -68,11 +64,11 @@ namespace KitsuAPP
             this.OKbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.OKbtn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OKbtn.ForeColor = System.Drawing.Color.White;
-            this.OKbtn.Location = new System.Drawing.Point(713, 39);
+            this.OKbtn.Location = new System.Drawing.Point(638, 29);
             this.OKbtn.Name = "OKbtn";
             this.OKbtn.Size = new System.Drawing.Size(75, 21);
             this.OKbtn.TabIndex = 2;
-            this.OKbtn.Text = "Okay";
+            this.OKbtn.Text = "Search";
             this.OKbtn.UseVisualStyleBackColor = false;
             this.OKbtn.Click += new System.EventHandler(this.OKbtn_Click);
             // 
@@ -82,7 +78,7 @@ namespace KitsuAPP
             this.inputBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.inputBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inputBox.ForeColor = System.Drawing.SystemColors.Info;
-            this.inputBox.Location = new System.Drawing.Point(489, 13);
+            this.inputBox.Location = new System.Drawing.Point(301, 28);
             this.inputBox.Name = "inputBox";
             this.inputBox.Size = new System.Drawing.Size(299, 22);
             this.inputBox.TabIndex = 1;
@@ -93,7 +89,7 @@ namespace KitsuAPP
             this.kitsulogo.Image = global::KitsuAPP.Properties.Resources._1_xCVYNKzZSVWQmCsiC2Znxw;
             this.kitsulogo.Location = new System.Drawing.Point(0, 0);
             this.kitsulogo.Name = "kitsulogo";
-            this.kitsulogo.Size = new System.Drawing.Size(193, 72);
+            this.kitsulogo.Size = new System.Drawing.Size(210, 72);
             this.kitsulogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.kitsulogo.TabIndex = 0;
             this.kitsulogo.TabStop = false;
@@ -153,36 +149,6 @@ namespace KitsuAPP
             this.miscInfoLabel.Size = new System.Drawing.Size(0, 17);
             this.miscInfoLabel.TabIndex = 9;
             // 
-            // GithubBTN
-            // 
-            this.GithubBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(90)))), ((int)(((byte)(49)))));
-            this.GithubBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.GithubBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.GithubBTN.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GithubBTN.ForeColor = System.Drawing.Color.White;
-            this.GithubBTN.Location = new System.Drawing.Point(632, 39);
-            this.GithubBTN.Name = "GithubBTN";
-            this.GithubBTN.Size = new System.Drawing.Size(75, 21);
-            this.GithubBTN.TabIndex = 3;
-            this.GithubBTN.Text = "GitHub";
-            this.GithubBTN.UseVisualStyleBackColor = false;
-            this.GithubBTN.Click += new System.EventHandler(this.GithubBTN_Click);
-            // 
-            // AboutBTN
-            // 
-            this.AboutBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(90)))), ((int)(((byte)(49)))));
-            this.AboutBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.AboutBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.AboutBTN.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AboutBTN.ForeColor = System.Drawing.Color.White;
-            this.AboutBTN.Location = new System.Drawing.Point(551, 39);
-            this.AboutBTN.Name = "AboutBTN";
-            this.AboutBTN.Size = new System.Drawing.Size(75, 21);
-            this.AboutBTN.TabIndex = 4;
-            this.AboutBTN.Text = "About";
-            this.AboutBTN.UseVisualStyleBackColor = false;
-            this.AboutBTN.Click += new System.EventHandler(this.AboutBTN_Click);
-            // 
             // SiteLinkLabel
             // 
             this.SiteLinkLabel.AutoSize = true;
@@ -213,7 +179,7 @@ namespace KitsuAPP
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "MainForm";
-            this.Text = "Kitsu";
+            this.Text = "Fa²";
             this.bottompanel.ResumeLayout(false);
             this.bottompanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kitsulogo)).EndInit();
@@ -234,8 +200,6 @@ namespace KitsuAPP
         private System.Windows.Forms.Label descriptionLabel;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Label miscInfoLabel;
-        private System.Windows.Forms.Button GithubBTN;
-        private System.Windows.Forms.Button AboutBTN;
         private System.Windows.Forms.Label SiteLinkLabel;
     }
 }

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KitsuAPP")]
-[assembly: AssemblyDescription("An app to search anime and fetch data on Kitsu.io")]
+[assembly: AssemblyTitle("Fa²")]
+[assembly: AssemblyDescription("FaFaFa")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Dank-del")]
-[assembly: AssemblyProduct("KitsuAPP")]
-[assembly: AssemblyCopyright("Copyright © 2021 Dank-del")]
+[assembly: AssemblyCompany("NobleKnight43")]
+[assembly: AssemblyProduct("Fa²")]
+[assembly: AssemblyCopyright("Copyright © 2021 NobleKnight43")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
